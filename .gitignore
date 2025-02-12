@@ -1,0 +1,15 @@
+# Visual Studio
+.vs/
+
+# Build files
+bin/
+obj/
+
+# User configurations
+*.user
+*.suo
+
+# Logs and temporary files
+*.log
+*.tlog
+*.tmp
