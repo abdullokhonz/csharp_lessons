@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Begin20.Begin(5, 4, 2, 2));
+            Console.WriteLine(Begin40.Begin(2, 10, 5, 4, 1, 6));
         }
     }
 }
