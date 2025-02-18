@@ -1,41 +1,38 @@
-﻿namespace LeetCode
+﻿public class Solution
 {
-    public class _20_ValidParentheses
+    public bool IsValid(string s)
     {
-        public bool IsValid(string s)
-        {
-            List<char> stack = new List<char>();
-            Dictionary<char, char> mapping = new Dictionary<char, char>
+        List<char> stack = new List<char>();
+        Dictionary<char, char> mapping = new Dictionary<char, char>
             {
                 { ')', '('},
                 { '}', '{'},
                 { ']', '['}
             };
 
-            foreach (char item in s)
+        foreach (char item in s)
+        {
+            if (mapping.ContainsKey(item))
             {
-                if (mapping.ContainsKey(item))
+                if (stack.Count == 0)
                 {
-                    if (stack.Count == 0)
-                    {
-                        return false;
-                    }
-
-                    char topElement = stack[stack.Count - 1];
-                    stack.RemoveAt(stack.Count - 1);
-
-                    if (mapping[item] != topElement)
-                    {
-                        return false;
-                    }
+                    return false;
                 }
-                else
+
+                char topElement = stack[stack.Count - 1];
+                stack.RemoveAt(stack.Count - 1);
+
+                if (mapping[item] != topElement)
                 {
-                    stack.Add(item);
+                    return false;
                 }
             }
-
-            return stack.Count == 0;
+            else
+            {
+                stack.Add(item);
+            }
         }
+
+        return stack.Count == 0;
     }
 }
