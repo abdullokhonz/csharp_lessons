@@ -1,45 +1,48 @@
-﻿public class _8_StringToInteger
+﻿namespace LeetCode
 {
-    public int MyAtoi(string s)
+    public class _8_StringToInteger
     {
-        s = s.Trim();
-
-        if (s == "") return 0;
-
-        int sign = 1;
-        if (s[0] == '-')
+        public int MyAtoi(string s)
         {
-            sign = -1;
-            s = s.Substring(1);
-        }
-        else if (s[0] == '+') s = s.Substring(1);
+            s = s.Trim();
 
-        int result = 0;
-        int intMax = (int)Math.Pow(2, 31) - 1;
-        int intMin = (int)Math.Pow(2, 31) * -1;
+            if (s == "") return 0;
 
-        foreach (char item in s)
-        {
-            if (Char.IsDigit(item))
+            int sign = 1;
+            if (s[0] == '-')
             {
-                if (result > intMax / 10 || (result == intMax / 10 && item - '0' > intMax % 10))
+                sign = -1;
+                s = s.Substring(1);
+            }
+            else if (s[0] == '+') s = s.Substring(1);
+
+            int result = 0;
+            int intMax = (int)Math.Pow(2, 31) - 1;
+            int intMin = (int)Math.Pow(2, 31) * -1;
+
+            foreach (char item in s)
+            {
+                if (Char.IsDigit(item))
                 {
-                    return sign == 1 ? intMax : intMin;
+                    if (result > intMax / 10 || (result == intMax / 10 && item - '0' > intMax % 10))
+                    {
+                        return sign == 1 ? intMax : intMin;
+                    }
+
+                    result = result * 10 + (item - '0');
                 }
+                else
+                {
+                    break;
+                }
+            }
 
-                result = result * 10 + (item - '0');
-            }
-            else
-            {
-                break;
-            }
+            result *= sign;
+
+            if (result < intMin) return intMin;
+            if (result > intMax) return intMax;
+
+            return result;
         }
-
-        result *= sign;
-
-        if (result < intMin) return intMin;
-        if (result > intMax) return intMax;
-
-        return result;
     }
 }

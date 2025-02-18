@@ -1,16 +1,19 @@
-﻿public class _9_PalindromeNumber
+﻿namespace LeetCode
 {
-    public bool IsPalindrome(int x)
+    public class _9_PalindromeNumber
     {
-        if (x < 0 || (x % 10 == 0 && x != 0)) return false;
-
-        int reversedHalf = 0;
-        while (x > reversedHalf)
+        public bool IsPalindrome(int x)
         {
-            reversedHalf = reversedHalf * 10 + x % 10;
-            x /= 10;
-        }
+            if (x < 0 || (x % 10 == 0 && x != 0)) return false;
 
-        return x == reversedHalf || x == reversedHalf / 10;
+            int reversedHalf = 0;
+            while (x > reversedHalf)
+            {
+                reversedHalf = reversedHalf * 10 + x % 10;
+                x /= 10;
+            }
+
+            return x == reversedHalf || x == reversedHalf / 10;
+        }
     }
 }

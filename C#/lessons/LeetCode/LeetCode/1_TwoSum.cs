@@ -1,17 +1,20 @@
-﻿public class _1_TwoSum
+﻿namespace LeetCode
 {
-    public int[] TwoSum(int[] nums, int target)
+    public class _1_TwoSum
     {
-        var map = new Dictionary<int, int>();
-        for (int i = 0; i < nums.Length; i++)
+        public int[] TwoSum(int[] nums, int target)
         {
-            int complement = target - nums[i];
-            if (map.ContainsKey(complement))
+            var map = new Dictionary<int, int>();
+            for (int i = 0; i < nums.Length; i++)
             {
-                return new int[] { map[complement], i };
+                int complement = target - nums[i];
+                if (map.ContainsKey(complement))
+                {
+                    return new int[] { map[complement], i };
+                }
+                map[nums[i]] = i;
             }
-            map[nums[i]] = i;
+            return new int[0];
         }
-        return new int[0];
     }
 }

@@ -1,38 +1,41 @@
-﻿public class Solution
+﻿namespace LeetCode
 {
-    public bool IsValid(string s)
+    public class Solution
     {
-        List<char> stack = new List<char>();
-        Dictionary<char, char> mapping = new Dictionary<char, char>
+        public bool IsValid(string s)
+        {
+            List<char> stack = new List<char>();
+            Dictionary<char, char> mapping = new Dictionary<char, char>
             {
                 { ')', '('},
                 { '}', '{'},
                 { ']', '['}
             };
 
-        foreach (char item in s)
-        {
-            if (mapping.ContainsKey(item))
+            foreach (char item in s)
             {
-                if (stack.Count == 0)
+                if (mapping.ContainsKey(item))
                 {
-                    return false;
+                    if (stack.Count == 0)
+                    {
+                        return false;
+                    }
+
+                    char topElement = stack[stack.Count - 1];
+                    stack.RemoveAt(stack.Count - 1);
+
+                    if (mapping[item] != topElement)
+                    {
+                        return false;
+                    }
                 }
-
-                char topElement = stack[stack.Count - 1];
-                stack.RemoveAt(stack.Count - 1);
-
-                if (mapping[item] != topElement)
+                else
                 {
-                    return false;
+                    stack.Add(item);
                 }
             }
-            else
-            {
-                stack.Add(item);
-            }
+
+            return stack.Count == 0;
         }
-
-        return stack.Count == 0;
     }
 }
