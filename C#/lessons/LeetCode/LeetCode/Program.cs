@@ -4,12 +4,10 @@
     {
         static void Main(string[] args)
         {
-            _3_LongestSubstringWithoutRepeatingCharacters test = new _3_LongestSubstringWithoutRepeatingCharacters();
-            Console.WriteLine(test.LengthOfLongestSubstring("abcabcbb"));
-            Console.WriteLine(test.LengthOfLongestSubstring("pwwkew"));
-            Console.WriteLine(test.LengthOfLongestSubstring("bbbb"));
-            Console.WriteLine(test.LengthOfLongestSubstring("au"));
-            Console.WriteLine(test.LengthOfLongestSubstring("aab"));
+            _4_MedianOfTwoSortedArrays test = new _4_MedianOfTwoSortedArrays();
+            Console.WriteLine(test.FindMedianSortedArrays([1, 3], [2]));
+            Console.WriteLine(test.FindMedianSortedArrays([1, 2], [3, 4]));
+            Console.WriteLine(test.FindMedianSortedArrays([], [1]));
         }
     }
 }
