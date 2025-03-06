@@ -4,10 +4,9 @@
     {
         static void Main(string[] args)
         {
-            _4_MedianOfTwoSortedArrays test = new _4_MedianOfTwoSortedArrays();
-            Console.WriteLine(test.FindMedianSortedArrays([1, 3], [2]));
-            Console.WriteLine(test.FindMedianSortedArrays([1, 2], [3, 4]));
-            Console.WriteLine(test.FindMedianSortedArrays([], [1]));
+            _5_LongestPalindromicSubstring test = new _5_LongestPalindromicSubstring();
+            Console.WriteLine(test.LongestPalindrome("babad"));
+            Console.WriteLine(test.LongestPalindrome("cbbd"));
         }
     }
 }
