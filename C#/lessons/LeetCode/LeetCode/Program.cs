@@ -4,9 +4,10 @@
     {
         static void Main(string[] args)
         {
-            _5_LongestPalindromicSubstring test = new _5_LongestPalindromicSubstring();
-            Console.WriteLine(test.LongestPalindrome("babad"));
-            Console.WriteLine(test.LongestPalindrome("cbbd"));
+            _6_ZigzagConversion test = new _6_ZigzagConversion();
+            Console.WriteLine(test.Convert("Abdullokhon", 3));
+            Console.WriteLine(test.Convert("PAYPALISHIRING", 3));
+            Console.WriteLine(test.Convert("PAYPALISHIRING", 4));
         }
     }
 }
