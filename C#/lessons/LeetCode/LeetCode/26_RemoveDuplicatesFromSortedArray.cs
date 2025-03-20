@@ -1,20 +1,23 @@
-﻿public class _26_RemoveDuplicatesFromSortedArray
+﻿namespace LeetCode
 {
-    public int RemoveDuplicates(int[] nums)
+    public class _26_RemoveDuplicatesFromSortedArray
     {
-        if (nums.Length == 0) return 0;
-
-        int index = 1;
-
-        for (int i = 1; i < nums.Length; i++)
+        public int RemoveDuplicates(int[] nums)
         {
-            if (nums[i] != nums[i - 1])
-            {
-                nums[index] = nums[i];
-                index++;
-            }
-        }
+            if (nums.Length == 0) return 0;
 
-        return index;
+            int index = 1;
+
+            for (int i = 1; i < nums.Length; i++)
+            {
+                if (nums[i] != nums[i - 1])
+                {
+                    nums[index++] = nums[i];
+                }
+            }
+
+            return index;
+        }
     }
+
 }
