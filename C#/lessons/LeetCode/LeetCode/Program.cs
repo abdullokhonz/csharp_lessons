@@ -4,12 +4,10 @@
     {
         static void Main(string[] args)
         {
-            _33_SearchInRotatedSortedArray test = new _33_SearchInRotatedSortedArray();
+            _2843_CountSymmetricIntegers test = new _2843_CountSymmetricIntegers();
 
-            Console.WriteLine(test.Search([4, 5, 6, 7, 0, 1, 2], 0));
-            Console.WriteLine(test.Search([4, 5, 6, 7, 0, 1, 2], 3));
-            Console.WriteLine(test.Search([1], 0));
-            Console.WriteLine(test.Search([1], 1));
+            Console.WriteLine(test.CountSymmetricIntegers(1, 100));
+            Console.WriteLine(test.CountSymmetricIntegers(1200, 1230));
         }
     }
 }
