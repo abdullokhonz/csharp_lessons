@@ -4,10 +4,11 @@
     {
         static void Main(string[] args)
         {
-            _2843_CountSymmetricIntegers test = new _2843_CountSymmetricIntegers();
+            _58_LengthOfLastWord test = new _58_LengthOfLastWord();
 
-            Console.WriteLine(test.CountSymmetricIntegers(1, 100));
-            Console.WriteLine(test.CountSymmetricIntegers(1200, 1230));
+            Console.WriteLine(test.LengthOfLastWord("Hello World"));
+            Console.WriteLine(test.LengthOfLastWord("   fly me   to   the moon  "));
+            Console.WriteLine(test.LengthOfLastWord("luffy is still joyboy"));
         }
     }
 }
