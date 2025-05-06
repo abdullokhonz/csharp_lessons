@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
-            _41_FirstMissingPositive test= new _41_FirstMissingPositive();
+            _91_DecodeWays test = new _91_DecodeWays();
 
-            Console.WriteLine(test.FirstMissingPositive([1, 2, 0]));
-            Console.WriteLine(test.FirstMissingPositive([3, 4, -1, 1]));
-            Console.WriteLine(test.FirstMissingPositive([7, 8, 9, 11, 12]));
+            Console.WriteLine(test.NumDecodings("12"));
+            Console.WriteLine(test.NumDecodings("226"));
+            Console.WriteLine(test.NumDecodings("06"));
         }
     }
 }
