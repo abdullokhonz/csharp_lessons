@@ -4,11 +4,12 @@
     {
         static void Main(string[] args)
         {
-            _91_DecodeWays test = new _91_DecodeWays();
+            _66_PlusOne test = new _66_PlusOne();
 
-            Console.WriteLine(test.NumDecodings("12"));
-            Console.WriteLine(test.NumDecodings("226"));
-            Console.WriteLine(test.NumDecodings("06"));
+            Console.WriteLine(test.PlusOne([1, 2, 3]));
+            Console.WriteLine(test.PlusOne([4, 3, 2, 1]));
+            Console.WriteLine(test.PlusOne([9]));
+            Console.WriteLine(test.PlusOne([9, 9, 9]));
         }
     }
 }
