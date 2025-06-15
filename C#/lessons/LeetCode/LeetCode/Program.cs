@@ -4,10 +4,11 @@
     {
         static void Main(string[] args)
         {
-            _3335_TotalCharactersInStringAfterTransformationsI test = new _3335_TotalCharactersInStringAfterTransformationsI();
+            _3423_MaximumDifferenceBetweenAdjacentElementsInACircularArray test = new _3423_MaximumDifferenceBetweenAdjacentElementsInACircularArray();
 
-            Console.WriteLine(test.LengthAfterTransformations("abcyy", 2));
-            Console.WriteLine(test.LengthAfterTransformations("azbk", 1));
+
+            Console.WriteLine(test.MaxAdjacentDistance([1, 2, 4]));
+            Console.WriteLine(test.MaxAdjacentDistance([-5, -10, -5]));
         }
     }
 }
