@@ -6,9 +6,9 @@
         {
             Console.WriteLine("Hello, World!");
 
-            UnfoldedArrayIntoNewArray test = new UnfoldedArrayIntoNewArray();
+            FindTheNumberOfLocalMinima test = new FindTheNumberOfLocalMinima();
 
-            test.ReverseArray();
+            test.CountOfLocalMinima();
         }
     }
 }
