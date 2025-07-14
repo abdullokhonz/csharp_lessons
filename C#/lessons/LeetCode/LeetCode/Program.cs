@@ -4,11 +4,9 @@
     {
         static void Main(string[] args)
         {
-            _3423_MaximumDifferenceBetweenAdjacentElementsInACircularArray test = new _3423_MaximumDifferenceBetweenAdjacentElementsInACircularArray();
+            _2011_FinalValueOfVariableAfterPerformingOperations test = new _2011_FinalValueOfVariableAfterPerformingOperations();
 
-
-            Console.WriteLine(test.MaxAdjacentDistance([1, 2, 4]));
-            Console.WriteLine(test.MaxAdjacentDistance([-5, -10, -5]));
+            Console.WriteLine(test.FinalValueAfterOperations(["--X", "X++", "X++"]));
         }
     }
 }
