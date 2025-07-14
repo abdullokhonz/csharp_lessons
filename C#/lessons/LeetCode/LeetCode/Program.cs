@@ -7,6 +7,8 @@
             _2011_FinalValueOfVariableAfterPerformingOperations test = new _2011_FinalValueOfVariableAfterPerformingOperations();
 
             Console.WriteLine(test.FinalValueAfterOperations(["--X", "X++", "X++"]));
+            Console.WriteLine(test.FinalValueAfterOperations(["++X", "++X", "X++"]));
+            Console.WriteLine(test.FinalValueAfterOperations(["X++", "++X", "--X", "X--"]));
         }
     }
 }
