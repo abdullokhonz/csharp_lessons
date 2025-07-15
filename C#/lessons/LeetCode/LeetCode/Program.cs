@@ -1,14 +1,14 @@
-﻿namespace LeetCode
+﻿using static LeetCode.ListNode;
+
+namespace LeetCode
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            _2011_FinalValueOfVariableAfterPerformingOperations test = new _2011_FinalValueOfVariableAfterPerformingOperations();
+            _148_SortList test = new _148_SortList();
 
-            Console.WriteLine(test.FinalValueAfterOperations(["--X", "X++", "X++"]));
-            Console.WriteLine(test.FinalValueAfterOperations(["++X", "++X", "X++"]));
-            Console.WriteLine(test.FinalValueAfterOperations(["X++", "++X", "--X", "X--"]));
+            OutputListNode(test.SortList(InputListNode([4, 2, 1, 3])));
         }
     }
 }
