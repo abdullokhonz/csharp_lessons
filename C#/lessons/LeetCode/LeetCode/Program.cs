@@ -1,14 +1,13 @@
-﻿using static LeetCode.ListNode;
-
-namespace LeetCode
+﻿namespace LeetCode
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            _148_SortList test = new _148_SortList();
+            _3110_ScoreOfAString test = new _3110_ScoreOfAString();
 
-            OutputListNode(test.SortList(InputListNode([4, 2, 1, 3])));
+            Console.WriteLine(test.ScoreOfString("hello"));
+            Console.WriteLine(test.ScoreOfString("zaz"));
         }
     }
 }
