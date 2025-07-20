@@ -4,6 +4,9 @@
     {
         public int FindMaxConsecutiveOnes(int[] nums)
         {
+            if (nums == null || nums.Length == 0)
+                return 0;
+
             int maxCount = 0;
 
             for (int i = 0; i < nums.Length; i++)
