@@ -4,10 +4,9 @@
     {
         static void Main(string[] args)
         {
-            _3110_ScoreOfAString test = new _3110_ScoreOfAString();
+            _485_MaxConsecutiveOnes test = new _485_MaxConsecutiveOnes();
 
-            Console.WriteLine(test.ScoreOfString("hello"));
-            Console.WriteLine(test.ScoreOfString("zaz"));
+            Console.WriteLine(test.FindMaxConsecutiveOnes([1, 1, 0, 1, 1, 1]));
         }
     }
 }
