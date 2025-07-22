@@ -4,9 +4,10 @@
     {
         static void Main(string[] args)
         {
-            _485_MaxConsecutiveOnes test = new _485_MaxConsecutiveOnes();
+            _2243_CalculateDigitSumOfAString test = new _2243_CalculateDigitSumOfAString();
 
-            Console.WriteLine(test.FindMaxConsecutiveOnes([1, 1, 0, 1, 1, 1]));
+            Console.WriteLine(test.DigitSum("11111222223", 3));
+            Console.WriteLine(test.DigitSum("00000000", 3));
         }
     }
 }
