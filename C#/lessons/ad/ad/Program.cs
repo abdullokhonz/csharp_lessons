@@ -6,9 +6,9 @@
         {
             Console.WriteLine("Hello, World!");
 
-            FindTheNumberOfLocalMinima test = new FindTheNumberOfLocalMinima();
+            AccessManagementSystem test = new AccessManagementSystem();
 
-            test.CountOfLocalMinima();
+            test.Test();
         }
     }
 }
