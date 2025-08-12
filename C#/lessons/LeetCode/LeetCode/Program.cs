@@ -4,10 +4,9 @@
     {
         static void Main(string[] args)
         {
-            _2243_CalculateDigitSumOfAString test = new _2243_CalculateDigitSumOfAString();
+            _14_LongestCommonPrefix test = new _14_LongestCommonPrefix();
 
-            Console.WriteLine(test.DigitSum("11111222223", 3));
-            Console.WriteLine(test.DigitSum("00000000", 3));
+            Console.WriteLine(test.LongestCommonPrefix(["flower", "flow", "flight"]));
         }
     }
 }
