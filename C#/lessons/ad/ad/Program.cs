@@ -6,9 +6,9 @@
         {
             Console.WriteLine("Hello, World!");
 
-            AccessManagementSystem test = new AccessManagementSystem();
+            var test = new LargestPalindromicSubstring();
 
-            test.Test();
+            test.Run();
         }
     }
 }
