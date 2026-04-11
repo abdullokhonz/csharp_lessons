@@ -4,9 +4,10 @@
     {
         static void Main(string[] args)
         {
-            _14_LongestCommonPrefix test = new _14_LongestCommonPrefix();
+            _28_FindTheIndexOfTheFirstOccurrenceInAString test = new _28_FindTheIndexOfTheFirstOccurrenceInAString();
 
-            Console.WriteLine(test.LongestCommonPrefix(["flower", "flow", "flight"]));
+            Console.WriteLine(test.StrStr("sadbutsad", "sad"));
+            Console.WriteLine(test.StrStr("leetcode", "leeto"));
         }
     }
 }
