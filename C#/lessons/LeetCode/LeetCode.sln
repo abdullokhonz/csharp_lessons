@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.5.11709.299 stable
+VisualStudioVersion = 18.5.11709.299
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{E31BA7B0-C30D-49B5-A64F-5C94F5465DEE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.TwoSum", "Problems\1.TwoSum\1.TwoSum.csproj", "{178A3BC7-2D1A-4F31-B355-C7604582181D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.AddTwoNumbers", "Problems\2.AddTwoNumbers\2.AddTwoNumbers.csproj", "{2DE94C4B-BC84-4E4B-B61E-EEC56028983D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{178A3BC7-2D1A-4F31-B355-C7604582181D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{178A3BC7-2D1A-4F31-B355-C7604582181D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{178A3BC7-2D1A-4F31-B355-C7604582181D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE94C4B-BC84-4E4B-B61E-EEC56028983D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE94C4B-BC84-4E4B-B61E-EEC56028983D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE94C4B-BC84-4E4B-B61E-EEC56028983D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE94C4B-BC84-4E4B-B61E-EEC56028983D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
