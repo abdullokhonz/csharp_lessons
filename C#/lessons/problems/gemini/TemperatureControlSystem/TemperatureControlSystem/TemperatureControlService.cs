@@ -9,7 +9,7 @@
             _temperatures = temperatures ?? throw new ArgumentNullException(nameof(temperatures));
         }
 
-        public (double, int, bool) TemperatureSensorReport()
+        public (double Average, int Deviations, bool IsEmergency) TemperatureSensorReport()
         {
             double averageTemperature = _temperatures.Average();
             int deviationsCount = 0;
