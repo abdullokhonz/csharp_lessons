@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.AddTwoNumbers", "Problems
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2404.MostFrequentEvenElement", "2404.MostFrequentEvenElement\2404.MostFrequentEvenElement.csproj", "{6914A5FE-AF89-426F-A706-72C6F1A03088}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "448.FindAllNumbersDisappearedInAnArray", "448.FindAllNumbersDisappearedInAnArray\448.FindAllNumbersDisappearedInAnArray.csproj", "{5B416E18-3A60-461A-BE2D-DECD5E84F8E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6914A5FE-AF89-426F-A706-72C6F1A03088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6914A5FE-AF89-426F-A706-72C6F1A03088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6914A5FE-AF89-426F-A706-72C6F1A03088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B416E18-3A60-461A-BE2D-DECD5E84F8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B416E18-3A60-461A-BE2D-DECD5E84F8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B416E18-3A60-461A-BE2D-DECD5E84F8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B416E18-3A60-461A-BE2D-DECD5E84F8E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
