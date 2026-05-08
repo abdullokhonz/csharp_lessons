@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2404.MostFrequentEvenElemen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "448.FindAllNumbersDisappearedInAnArray", "448.FindAllNumbersDisappearedInAnArray\448.FindAllNumbersDisappearedInAnArray.csproj", "{5B416E18-3A60-461A-BE2D-DECD5E84F8E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3158.FindTheXOROfNumbersWhichAppearTwice", "Problems\3158.FindTheXOROfNumbersWhichAppearTwice\3158.FindTheXOROfNumbersWhichAppearTwice.csproj", "{210047FD-D4E8-4254-9A6D-2281E29730A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5B416E18-3A60-461A-BE2D-DECD5E84F8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B416E18-3A60-461A-BE2D-DECD5E84F8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B416E18-3A60-461A-BE2D-DECD5E84F8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210047FD-D4E8-4254-9A6D-2281E29730A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210047FD-D4E8-4254-9A6D-2281E29730A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210047FD-D4E8-4254-9A6D-2281E29730A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210047FD-D4E8-4254-9A6D-2281E29730A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
