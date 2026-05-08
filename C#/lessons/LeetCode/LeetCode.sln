@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.TwoSum", "Problems\1.TwoS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.AddTwoNumbers", "Problems\2.AddTwoNumbers\2.AddTwoNumbers.csproj", "{2DE94C4B-BC84-4E4B-B61E-EEC56028983D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2404.MostFrequentEvenElement", "2404.MostFrequentEvenElement\2404.MostFrequentEvenElement.csproj", "{6914A5FE-AF89-426F-A706-72C6F1A03088}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2DE94C4B-BC84-4E4B-B61E-EEC56028983D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DE94C4B-BC84-4E4B-B61E-EEC56028983D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DE94C4B-BC84-4E4B-B61E-EEC56028983D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6914A5FE-AF89-426F-A706-72C6F1A03088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6914A5FE-AF89-426F-A706-72C6F1A03088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6914A5FE-AF89-426F-A706-72C6F1A03088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6914A5FE-AF89-426F-A706-72C6F1A03088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
