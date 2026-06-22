@@ -13,3 +13,6 @@ obj/
 *.log
 *.tlog
 *.tmp
+
+# Rider
+.idea/
